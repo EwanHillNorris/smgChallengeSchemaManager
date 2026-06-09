@@ -1,0 +1,14 @@
+version: 1
+
+fields:
+  id:
+    type: integer
+    nullable: false
+
+  name:
+    type: string
+    nullable: true
+
+  created_at:
+    type: datetime
+    nullable: false
