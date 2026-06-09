@@ -30,9 +30,3 @@ class SchemaDiff:
             len(self.removed_fields) == 0
             and len(self.type_changes) == 0
         )
-
-def is_compatible(change_report):
-    return (
-        not change_report["removed_fields"]
-        and not change_report["type_changes"]
-    )
